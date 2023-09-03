@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #408080;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #008080;
+}
+
+.active {
+  background-color: #804000;
+}
